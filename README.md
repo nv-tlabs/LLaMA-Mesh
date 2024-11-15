@@ -1,6 +1,6 @@
 # LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models
 
-[**Paper**](https://github.com/nv-tlabs/LLaMA-Mesh/) | [**Project Page**](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/)
+[**Paper**](https://arxiv.org/pdf/2411.09595) | [**Project Page**](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/)
 
 Official implementation of ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model
 
