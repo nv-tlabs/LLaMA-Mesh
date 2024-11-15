@@ -20,3 +20,17 @@ Overview of our method. LLaMA-Mesh unifies text and 3D mesh in a uniform format 
 <p align="center">
     <img src="assets/pipeline.jpg">
 </p>
+
+## BibTeX
+
+```bibtex
+@misc{wang2024llamameshunifying3dmesh,
+    title={LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models}, 
+    author={Zhengyi Wang and Jonathan Lorraine and Yikai Wang and Hang Su and Jun Zhu and Sanja Fidler and Xiaohui Zeng},
+    year={2024},
+    eprint={2411.09595},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2411.09595}, 
+} 
+```
