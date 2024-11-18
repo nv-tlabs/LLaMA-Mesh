@@ -34,6 +34,14 @@ python app.py
 ```
 ![UI](https://github.com/user-attachments/assets/dba6872f-362e-496e-a76f-d955309ea6da)
 
+Or using LLaMA-Mesh with `transformers`:
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_path = "Zhengyi/LLaMA-Mesh"
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+```
 
 ## BibTeX
 
