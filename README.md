@@ -14,6 +14,13 @@ Abstract: *This work explores expanding the capabilities of large language model
 
 https://github.com/user-attachments/assets/11291517-6309-453c-9e7d-087198a8bd87
 
+## TODO List
+
+- [x] Release [model weights](https://huggingface.co/Zhengyi/LLaMA-Mesh) and [online demo](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh). (2024/11/18)
+- [ ] Release inferece code.
+- [ ] Upload training dataset.
+- [ ] Upload training codes.
+
 ## Method
 
 Overview of our method. LLaMA-Mesh unifies text and 3D mesh in a uniform format by representing the numerical values of vertex coordinates and face definitions of a 3D mesh as plain text. Our model is trained using text and 3D interleaved data in an end-to-end manner. Therefore, our model can generate both text and 3D meshes in a unified model.
