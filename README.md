@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/11291517-6309-453c-9e7d-087198a8bd87
 ## TODO List
 
 - [x] Release [model weights](https://huggingface.co/Zhengyi/LLaMA-Mesh) and [online demo](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh). (2024/11/18)
-- [ ] Release inferece code.
+- [x] Release inferece code.
 - [ ] Upload training dataset.
 - [ ] Upload training codes.
 
@@ -27,6 +27,14 @@ Overview of our method. LLaMA-Mesh unifies text and 3D mesh in a uniform format 
 <p align="center">
     <img src="assets/pipeline.jpg">
 </p>
+
+## Inference
+We suggest using Gradio UI for a visualized inference.
+```
+python app.py
+```
+![UI](https://github.com/user-attachments/assets/dba6872f-362e-496e-a76f-d955309ea6da)
+
 
 ## BibTeX
 
