@@ -146,6 +146,7 @@ def chat_llama3_8b(message: str,
         do_sample=True,
         temperature=temperature,
         eos_token_id=terminators,
+        pad_token_id=tokenizer.eos_token_id,
     )
     # This will enforce greedy generation (do_sample=False) when the temperature is passed 0, avoiding the crash.             
     if temperature == 0:
