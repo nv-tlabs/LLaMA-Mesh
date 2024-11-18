@@ -27,10 +27,16 @@ Overview of our method. LLaMA-Mesh unifies text and 3D mesh in a uniform format 
     <img src="assets/pipeline.jpg">
 </p>
 
+## Install Environment
+The environment may be installed and managed by [`pixi`](https://pixi.sh/latest/).
+
+1. Install [`pixi`](https://pixi.sh/latest/) as described on the Installation page.
+2. Install the environment and dependencies with `pixi install`
+
 ## Inference
 We suggest using Gradio UI for a visualized inference.
 ```
-python app.py
+pixi run app
 ```
 ![UI](https://github.com/user-attachments/assets/dba6872f-362e-496e-a76f-d955309ea6da)
 
