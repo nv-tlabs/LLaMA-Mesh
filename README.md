@@ -2,8 +2,7 @@
 
 [**Paper**](https://arxiv.org/pdf/2411.09595) | [**Project Page**](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/) | [**Model Weights**](https://huggingface.co/Zhengyi/LLaMA-Mesh) | [**Huggingface Demo**](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh)
 
-Official implementation of LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models
-
+Create 3D meshes by chatting.
 
 [Zhengyi Wang](https://thuwzy.github.io/), [Jonathan Lorraine](https://www.jonlorraine.com/), [Yikai Wang](https://yikaiw.github.io/), [Hang Su](https://www.suhangss.me/), [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/), [Xiaohui Zeng](https://www.cs.utoronto.ca/~xiaohui/)
 
