@@ -235,5 +235,5 @@ with gr.Blocks(fill_height=True, css=css) as demo:
                 )
           
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
     
