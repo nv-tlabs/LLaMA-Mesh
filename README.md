@@ -43,6 +43,9 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 ```
 
+Or using LLaMA-Mesh with [ComfyUI](https://github.com/Yuan-ManX/ComfyUI-LLaMA-Mesh).
+
+
 ## BibTeX
 
 ```bibtex
