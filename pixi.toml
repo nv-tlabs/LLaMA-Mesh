@@ -1,0 +1,17 @@
+[project]
+authors = ["Zhengyi Wang", "Jonathan Lorraine", "Yikai Wang", "Hang Su", "Jun Zhu", "Sanja Fidler", "Xiaohui Zeng"]
+channels = ["conda-forge"]
+description = "LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models"
+name = "LLaMA-Mesh"
+platforms = [ "linux-64", "linux-aarch64", "osx-64", "osx-arm64" ]
+version = "0.1.0"
+
+[tasks]
+app = "python app.py"
+
+[dependencies]
+accelerate = ">=1.1.1,<2"
+gradio = ">=5.1.0,<6"
+numpy = ">=2.1.3,<3"
+transformers = ">=4.46.2,<5"
+trimesh = ">=4.5.2,<5"
