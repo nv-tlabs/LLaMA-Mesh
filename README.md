@@ -1,6 +1,6 @@
 # LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models
 
-[**Paper**](https://arxiv.org/pdf/2411.09595) | [**Project Page**](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/) | [**Model Weights**](https://huggingface.co/Zhengyi/LLaMA-Mesh) | [**Huggingface Demo**](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh)
+[**Paper**](https://arxiv.org/pdf/2411.09595) | [**Project Page**](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/) | [**Model Weights**](https://huggingface.co/Zhengyi/LLaMA-Mesh) | [**Huggingface Demo**](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh) | [**Blender Addon**](https://github.com/huggingface/meshgen)
 
 Create 3D meshes by chatting.
 
@@ -42,6 +42,9 @@ model_path = "Zhengyi/LLaMA-Mesh"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 ```
+## Acknowledgements
+
+Thanks to [Dylan Ebert](https://dylanebert.com/) for implementing the [blender addon](https://github.com/huggingface/meshgen).
 
 ## BibTeX
 
