@@ -18,7 +18,6 @@ https://github.com/user-attachments/assets/11291517-6309-453c-9e7d-087198a8bd87
 - [x] Release [model weights](https://huggingface.co/Zhengyi/LLaMA-Mesh) and [online demo](https://huggingface.co/spaces/Zhengyi/LLaMA-Mesh). (2024/11/18)
 - [x] Release inference code.
 - [ ] Upload training dataset.
-- [ ] Upload training codes.
 
 ## Method
 
