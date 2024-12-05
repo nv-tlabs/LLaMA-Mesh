@@ -45,6 +45,9 @@ model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
 Thanks to [Dylan Ebert](https://dylanebert.com/) for implementing the [blender addon](https://github.com/huggingface/meshgen).
 
+Or using LLaMA-Mesh with [ComfyUI](https://github.com/Yuan-ManX/ComfyUI-LLaMA-Mesh).
+
+
 ## BibTeX
 
 ```bibtex
