@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  llama-mesh:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    # runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    ports:
+      - "7878:7860"  # Gradio UI port
+    volumes:
+      - .:/app
+      - .cache/huggingface:/root/.cache/huggingface  # Cache HuggingFace models
+    command: python app.py
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
