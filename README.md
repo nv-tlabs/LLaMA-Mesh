@@ -48,13 +48,10 @@ Thanks to [Dylan Ebert](https://dylanebert.com/) for implementing the [blender a
 ## BibTeX
 
 ```bibtex
-@misc{wang2024llamameshunifying3dmesh,
-    title={LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models}, 
+@article{wang2024llamameshunifying3dmesh,
+    title={LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models},
     author={Zhengyi Wang and Jonathan Lorraine and Yikai Wang and Hang Su and Jun Zhu and Sanja Fidler and Xiaohui Zeng},
-    year={2024},
-    eprint={2411.09595},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    url={https://arxiv.org/abs/2411.09595}, 
-} 
+    journal={arXiv preprint arXiv:2411.09595},
+    year={2024}
+}
 ```
